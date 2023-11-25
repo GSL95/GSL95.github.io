@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0.1rem 0.5rem #00639b ;
+}
+
+.navigator {
+    display: flex;
+    align-items: right;
+    gap: 0px
+}
+
+.botao-cabeca {
+    width: 40px;
+    height: 40px;
+    background-color: #00639b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: white;
+    font-size: 24px;
+    transition: 0.5s;
+    
+}
+
+.botao-cabeca:hover{
+    background-color: #041e49;
+}
+
+.principal{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Imagens/Nogueira_Fachada_Final.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 684px;
+    box-shadow: 0 0.1rem 0.5rem #041e49 ;
+    position: relative;
+    flex-direction: row;
+
+}
+
+.texto-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-top: 5px;
+    padding: 20px;
+    font-size: 24px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+
+
+}
+
+.main-texto2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-teste{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    
+}
+
+.texto-cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    text-shadow: #041e49 4px 2px;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+
+
+.formulario-main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00639b;
+    color: white;
+    width: 300px
+    
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+    background-color: #041e49;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 400px;
+
+}
+
+form {
+    background-color: white;
+    max-width: 500px;
+    height: 520px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+form h1{
+    text-align: center;
+    font-size: 40px;
+    color: #00639b;
+    font-family: Arial;
+}
+
+form p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: Arial;
+
+}
+
+.input-single {
+    position: relative;
+    margin: 30px 0;
+}
+
+.input-single label {
+    transition: all 0.2s;
+    cursor: text;
+    position: absolute;
+    left: 0;
+    bottom: 5px
+    
+}
+
+.input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #00639b ;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .input-single .input:focus ~ label, 
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #00639b;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+form input[type=submit] {
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #00639b;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+
+}
+
+.imagem-form {
+    opacity: 80%;
+    border-right:#00639b;
+    border-radius: 0;
+}
+
+.texto-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+}
+
+.textoform{
+    color: #00639b;
+    font-family: 'Edu TAS Beginner', cursive;
+    width: 200px;
+    font-size: 32px;
+}
+
+.secao-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.secao-2 p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.secao-2 img{
+    width: 615px;
+    border-radius: 5px;
+    box-shadow: 0 0.1rem 0.5rem #041e49 ;
+}
+
+.secao-2-img{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    box-shadow: 0 0.1rem 0.5rem #041e49 ;
+}
+
+.secao-3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    margin-top: 30px;
+    background: linear-gradient(to left, white,#00639b);
+}
+
+.secao-3 img{
+    width: 500px;
+    border-radius: 5px;
+    
+}
+
+.secao-3-estrutura img{
+    width: 400px;
+    margin-top: 20px;
+   
+    
+}
+
+.estrutura-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.estrutura-div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.estrutura-info img{
+    width: 500px;
+    box-shadow: 0 0.1rem 0.5rem #041e49 ;
+}
+
+.coluna{
+    display: flex;
+    gap: 20px;
+}
+.coluna img{
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .div-teste{  
+        gap: 10px;
+    }
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-around;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(Imagens/Nogueira_Voo_Final_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px;
+}
+
+.rodape img{
+    width: 400px;
+    
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+
+}
+
+.galeria p{
+    font-size: 32px;
+}
+
+.galeria img{
+    width: 1100px;
+    box-shadow: 0 0.1rem 0.5rem #041e49 ;
+}
+
+.obrigado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #041e49;
+    color: white;
+    text-align: center;
+    text-decoration: double;
+    margin-top: 400px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.obrigado a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.obrigado-link{
+    margin-top: 50px;
+    font-size: 18px;}
+
+    .slider{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 1100px;
+        height: 700px;
+        overflow: hidden;
+    }
+    
+    .slides{
+        width: 600%;
+        height: 280px;
+        display: flex;
+    }
+    
+    .slides img{
+        width: 1100px;
+    }
+    
+    .slides input{
+        display: none;
+    }
+    
+    .slide{
+        width: 16.6%;
+        position: relative;
+        transition: 2s;
+    }
+    
+    .manual-navigation{
+        position: absolute;
+        width: 800px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .manual-btn{
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .manual-btn:not(:last-child){
+        margin-right: 40px;
+    }
+    
+    .manual-btn:hover{
+        background-color: #fff;
+    }
+    
+    #radio1:checked ~ .first{
+        margin-left: 42%;
+    }
+    
+    #radio2:checked ~ .first{
+        margin-left: 25.1%;
+    }
+    
+    #radio3:checked ~ .first{
+        margin-left: 8.5%;
+    }
+    
+    #radio4:checked ~ .first{
+        margin-left: -8.1%;
+    }
+    
+    #radio5:checked ~ .first{
+        margin-left: -24.7%;
+    }
+    
+    #radio6:checked ~ .first{
+        margin-left: -41.4%;
+    }
+    
+    .navigation-auto div{
+        border: 2px solid #20a6ff;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    
+    .navigation-auto{
+        position: absolute;
+        width: 800px;
+        margin-top: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botao-footer{
+        color: white;
+        background-color: #00639b;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 15px;
+        transition: 0.5s;
+    }
+
+    .botao-footer:hover{
+        background-color: #041e49;
+    }
